@@ -92,7 +92,7 @@ body, h1, h2, h3, p, figure, ul {
   list-style: none;
 }
 
-*, *::before,*::after{
+*, *::before,*::after {
   box-sizing: border-box;
 }
 
