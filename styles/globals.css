@@ -12,7 +12,7 @@
   --body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
   --display: clamp(4.5rem, 1.83rem + 11.34vw, 10rem);
   --heading1: clamp(2rem, 1.3rem + 3vw, 4rem);
-  --heading2: calc(var(--body) * 1,5);
+  --heading2: calc(var(--body) * 1.5);
   --heading3: calc(var(--body) * 1.2);
   --small-heading2: clamp(0.875rem, 4vw - 1rem, 1.6875rem);
   --small-heading3: calc(var(--small-heading2) * 0.86);
@@ -25,7 +25,7 @@
   --space-xl: calc(var(--space-xs) * 4);
   --space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem);
 
-  --max-width: 1100px;
+  /*--max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -63,7 +63,7 @@
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+  --card-border-rgb: 131, 134, 135;*/
 }
 
  /* 基本設定 */
