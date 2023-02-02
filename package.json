@@ -15,8 +15,10 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@next/font": "13.0.7",
+    "date-fns": "^2.29.3",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
+    "microcms-js-sdk": "^2.3.2",
     "next": "13.0.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
