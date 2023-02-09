@@ -1,6 +1,6 @@
 import { getPostBySlug, getAllSlugs } from "lib/api"
 import { extractText } from "lib/extract-text"
-import { prevNexPost } from "lib/prev-next.post"
+import { prevNextPost } from "lib/prev-next.post"
 import Meta from "@/components/meta"
 import Container from "@/components/container"
 import PostHeader from "@/components/post-header"
@@ -71,7 +71,7 @@ export default function Post ({
                 </TwoColumn>
                 <Pagination
                     prevText={prevPost.title}
-                    prebUrl={`/blog/${prevPost.slug}`}
+                    prevUrl={`/blog/${prevPost.slug}`}
                     nextText={nextPost.title}
                     nextUrl={`/blog/${nextPost.slug}`}
                 />
@@ -96,7 +96,7 @@ export async function getStaticProps(context) {
     eyecatch.blurDataURL = base64
 
     const allSlugs = await getAllSlugs()
-    const [prevPost, nextPost] = prevNexPost(allSlugs, slug)
+    const [prevPost, nextPost] = prevNextPost(allSlugs, slug)
 
     return {
         props: {
