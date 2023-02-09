@@ -9,6 +9,7 @@ const Blog = () =>
       title='Blog'
       subtitle='Recent Posts'
     />
+    <div>ksksk</div>
   </Container>
 
 export default Blog
